@@ -4,6 +4,12 @@ import java.security.InvalidParameterException;
 
 public class BrazilInterestService {
 	public double interestRate;
+	
+	
+
+	public BrazilInterestService(double interestRate) {
+		this.interestRate = interestRate;
+	}
 
 	public double getInterestRate() {
 		return interestRate;
